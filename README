@@ -1,0 +1,3 @@
+# README
+
+Don't read me, will update this bad boy when I get more info on what I am actually doing :)
