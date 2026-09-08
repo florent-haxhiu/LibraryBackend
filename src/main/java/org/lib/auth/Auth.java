@@ -19,7 +19,7 @@ public class Auth {
     }
 
     // TODO: Will need to generate an opaque token that hasn't already been generated before
-    // TOOD: For now I can do that with a Map to keep count of what has and hasn't but it'll always be a clean run for now
+    // TODO: For now I can do that with a Map to keep count of what has and hasn't but it'll always be a clean run for now
     // TODO: Going to have to keep a count of the IDs given out via SQL query or put it in the cache too
     public Integer login(String username, String candidate_password) {
         if (BCrypt.checkpw(candidate_password, this.hash)) {
